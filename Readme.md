@@ -4,4 +4,4 @@ __sshclient-promises__ is a lightweight SSH/SCP library for [node](https://nodej
 
 #### :green_book: [Visit the Wiki for more info.](https://github.com/codeponies/node-sshclient-promises/wiki)
 
-&copy 2016 codeponies | `code like the wind` :dash:
+&copy; 2016 codeponies | `code like the wind` :dash:
