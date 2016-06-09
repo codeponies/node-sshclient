@@ -1,8 +1,8 @@
 {
 	"name": "node-sshclient",
-	"version": "0.2.0",
-	"description": "Lightweight ssh/scp client library for nodejs.",
-	"keywords": ["ssh", "scp", "ssh client", "scp client", "node ssh", "node scp"],
+	"version": "0.3.0",
+	"description": "Lightweight, Promise based ssh/scp client library for nodejs.",
+	"keywords": ["ssh", "scp", "ssh client", "scp client", "node ssh", "node scp", "promise"],
 	"author": {
 		"name": "Gergely Varga",
 		"email": "greg@sph3r.com",
