@@ -1,9 +1,26 @@
-_sshclient_ is a lightweight ssh/scp library for [node](http://nodejs.org) using Promises.
+__sshclient-promises__ is a lightweight ssh/scp library for [node](http://nodejs.org) using Promises.
 
-_sshclient_ doesn't support interactivity, so you need to set up your remote server to allow login without a password
-(google: 'ssh login without a password').
+__sshclient-promises__ doesn't support interactivity, so you need to set up your remote server to allow login without a password
 
-## Example
+(Google: 'ssh login without a password').
+
+## Installation
+
+```sh
+npm install node-sshclient-promises
+```
+
+## Preflight
+
+```js
+//some.js
+'use strict';
+var SSHClient = require('node-sshclient-promises');
+const SSH = SSHClient.SSH;
+const SCP = SSHClient.SCP;
+```
+
+## Examples
 
 ### ssh
 
@@ -56,19 +73,6 @@ scp.download('remotefile', 'path/to/local/dir/').then((procResult) => {
 
 ```
 
-For more examples, see the tests.
+## Credits
 
-## Installation
-
-	$ npm install node-sshclient
-
-## Running tests
-
-To run tests, simply enter:
-
-	$ npm test
-
-(note that in mocha.opts --timeout is set to 25seconds to test connect fail - you may want to change it depending on your test system).
-
-_Note_: set the `hostname` variable to your server's hostname to succeed with the tests (or add `testhostname` to
-`~/.ssh/config` with the proper settings).
+Based off the original callback based `node-sshclient` module found [here](https://github.com/sperka/node-sshclient).

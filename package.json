@@ -1,34 +1,22 @@
 {
-	"name": "node-sshclient",
+	"name": "node-sshclient-promises",
 	"version": "0.3.0",
 	"description": "Lightweight, Promise based ssh/scp client library for nodejs.",
 	"keywords": ["ssh", "scp", "ssh client", "scp client", "node ssh", "node scp", "promise"],
 	"author": {
-		"name": "Gergely Varga",
-		"email": "greg@sph3r.com",
-		"url": "https://github.com/sperka"
+		"name": "Chris Byerley",
+		"email": "cbyerley@develephant.com",
+		"url": "https://github.com/codeponies"
 	},
-
-	"scripts": {
-		"test": "mocha"
-	},
-
+	"scripts": {},
 	"main": "./index",
-
 	"repository": {
 		"type": "git",
-		"url": "git://github.com/sperka/node-sshclient.git"
+		"url": "git://github.com/codeponies/node-sshclient-promises.git"
 	},
-
 	"bugs": {
-		"url": "https://github.com/sperka/node-sshclient/issues"
+		"url": "https://github.com/codeponies/node-sshclient-promises/issues"
 	},
-
-	"devDependencies": {
-		"mocha": "*",
-		"should": "*"
-	},
-
 	"engines": {
 		"node": ">=0.8"
 	}
